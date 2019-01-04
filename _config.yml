@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: articles
+    values:
+      layout: article
