@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Young's Blog"
+title                    : "GGammu's Blog"
 title_separator          : "-"
-name                     : "GGammu"
-description              : ""
+name                     : "Young Hwang"
+description              : "지극히 평범한 개발자"
 url                      : "https://ggammu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,7 +100,6 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Young Hwnag"
@@ -150,7 +149,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-
 # Reading Files
 include:
   - .htaccess
@@ -187,14 +185,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -207,19 +203,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -238,7 +231,6 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -268,14 +260,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
