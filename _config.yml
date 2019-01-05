@@ -20,11 +20,11 @@ author:
   reddit:           your-id
   medium:           your-id
   tumblr:           your-id
-  email:            your-id@your-email.com
+  email:            ykcul02@gmail.com
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             GGammu
 
 # Google-analytics
 google-analytics:
@@ -35,7 +35,7 @@ disqus:
   id:               "kiko-plus"
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "https://ggammu.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
 
