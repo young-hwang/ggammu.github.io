@@ -103,8 +103,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "황 영"
-  avatar           : "/assets/images/bio-photo.jpg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Young Hwnag"
+  avatar           : "/assets/images/businessman.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Busan, Korea"
   email            : ykcul02@gmail.com
