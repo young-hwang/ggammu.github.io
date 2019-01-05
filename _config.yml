@@ -193,6 +193,13 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
+<<<<<<< HEAD
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
     os_src: "git@github.com:bencentra/centrarium.com.git"
+=======
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
+
+theme: jekyll-theme-cayman
+>>>>>>> cecb7ea3fa677bc0bebc32c18e13e067e3531e5f
