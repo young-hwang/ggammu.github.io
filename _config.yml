@@ -19,7 +19,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://bencentra.github.io" # the base hostname & protocol for your site
+url: "http://ggammu.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
@@ -193,13 +193,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-<<<<<<< HEAD
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
     os_src: "git@github.com:bencentra/centrarium.com.git"
-=======
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
-
-theme: jekyll-theme-cayman
->>>>>>> cecb7ea3fa677bc0bebc32c18e13e067e3531e5f
