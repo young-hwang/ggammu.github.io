@@ -4,7 +4,6 @@ permalink: /tags/
 title: "Posts by Tag"
 author_profile: true
 ---
-{% include tag-list.html %}
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
   {% if tag[1].size > tags_max %}
