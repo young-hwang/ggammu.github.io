@@ -27,11 +27,3 @@ author_profile: true
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
-
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
-{% for year in postsByYear %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
-  {% for post in year.items %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
