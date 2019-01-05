@@ -103,11 +103,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Young Hwang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "황 영"
+  avatar           : "/assets/images/bio-photo.jpg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Korea"
-  email            :
+  location         : "Busan, Korea"
+  email            : ykcul02@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
