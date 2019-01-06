@@ -5,7 +5,7 @@ tags: [ PL-SQL ]
 ---
 ### Tablespace 관리
 ###### Tablespace 별 사용량
-<pre><code>
+```
     SELECT  U.TABLESPACE_NAME "테이블스페이스명",
             SUM(NVL(U.BYTES, 0)) "크기(MB)",
             (SUM(NVL(U.BYTES, 0)) - SUM(NVL(F.BYTES, 0))) / 1024000 "사용됨(MB)",
@@ -16,4 +16,4 @@ tags: [ PL-SQL ]
      WHERE  U.FILE_ID = F.FILE_ID(+)
     GROUP BY U.TABLESPACE_NAME
     ORDER BY U.TABLESPACE_NAME;
-</code></pre>
+```
