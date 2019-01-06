@@ -1,7 +1,6 @@
 ---
 title: "테이블 스페이스 요량 확인"
 date: 2019-01-05 16:05:00 -0600
-category: [ Oracle Database ]
 tags: [ PL-SQL ]
 ---
 ### Tablespace 관리
@@ -17,4 +16,4 @@ tags: [ PL-SQL ]
    WHERE  U.FILE_ID = F.FILE_ID(+)
   GROUP BY U.TABLESPACE_NAME
   ORDER BY U.TABLESPACE_NAME;
-</codce></pre>
+</code></pre>
