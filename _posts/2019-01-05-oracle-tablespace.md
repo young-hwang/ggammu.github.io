@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "테이블 스페이스 요량 확인"
 date: 2019-01-05 16:05:00 -0600
 category: [ Oracle Database ]
