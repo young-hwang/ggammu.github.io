@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "GGammu's Blog"
+title                    : "GGammu's Devlog"
 title_separator          : "-"
 name                     : "Young Hwang"
 description              : "지극히 평범한 개발자"
