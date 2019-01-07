@@ -5,6 +5,7 @@ category: [ OracleDB ]
 tags: [ PLSQL ]
 ---
 ## 테이블 스페이스 별 사용량
+---
 ```sql
 SELECT  DF.TABLESPACE_NAME                                              "테이블스페이스명"
        ,SUM(NVL(DF.BYTES, 0))                                           "크기(MB)"
