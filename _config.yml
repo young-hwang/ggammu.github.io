@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "GGAMMU"
+title                    : "Dev Log"
 title_separator          : "-"
 name                     : "Young Hwang"
 description              : ""
@@ -282,4 +282,4 @@ defaults:
       share: true
       related: true
       toc: true
-      toc_sticky: true
+      toc_sticky: false
