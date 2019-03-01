@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Young Hwnag"
+  name             : "Young Hwang"
   avatar           : "/assets/images/profile.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Busan, Korea"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/ggammu"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

@@ -3,6 +3,6 @@ main:
   - title: "About"
     url: https://ggammu.github.io/about/
   - title: "Posts"
-    url: /year-archive/
+    url: /year/
   - title: "Categories"
-    url: /category_archive/
+    url: /categories/
