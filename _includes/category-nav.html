@@ -1,0 +1,24 @@
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+<ul class="taxonomy__nav">
+  {% for i in (1..categories_max) reversed %}
+    {% for category in site.categories %}
+      {% if category[1].size == i %}
+        {% if site.baseurl %}
+          {% assign crumb_path = '/' + site.baseurl + '/' %}
+        {% else %}
+          {% assign crumb_path = '/' %}
+        {% endif %}
+        <li>
+          <a href="{{ site.category_dir | prepend:crumb_path }}#{{ category[0] }}">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>

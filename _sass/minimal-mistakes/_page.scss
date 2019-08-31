@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -15,7 +15,7 @@
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: $max-width;
   }
 }
 
@@ -23,12 +23,12 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0px; //$right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: 0px; //$right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -75,8 +75,7 @@
   p,
   li,
   dl {
-    /*font-size: 1em;*/
-    font-size: $type-size-5;
+    font-size: 1em;
   }
 
   /* paragraph indents */
@@ -354,6 +353,32 @@
   }
 }
 
+.taxonomy__nav {
+  display: block;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.414em 0;
+  padding: 0;
+  font-size: 0.75em;
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+  }
+}
 .back-to-top {
   display: block;
   clear: both;
