@@ -1,7 +1,7 @@
 ---
 title: "Oracle DB 테이블 스페이스 관리"
 date: 2018-01-05 16:05:00 -0600
-category: [ OracleDB ]
+category: [ ORACLEDB ]
 tags: [ PLSQL ]
 ---
 ***

@@ -1,7 +1,7 @@
 ---
 title: "Oracle DB 일일점검 대상"
 date: 2018-03-10 16:05:00 -0600
-category: [ OracleDB ]
+category: [ ORACLEDB ]
 tags: [ PLSQL ]
 ---
 
