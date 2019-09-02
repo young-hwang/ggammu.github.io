@@ -1,7 +1,7 @@
 ---
 title: "Oracle DB 시스템 테이블 및 뷰"
 date: 2018-03-09 16:05:00 -0600
-category: [ OracleDB ]
+category: [ ORACLEDB ]
 tags: [ System Table ]
 ---
 
