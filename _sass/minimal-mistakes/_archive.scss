@@ -24,6 +24,8 @@
   a {
     position: relative;
     z-index: 10;
+    text-decoration: none;
+    color: black;
   }
 
   a[rel="permalink"] {
@@ -237,6 +239,13 @@
 
   .archive__item-title {
     margin-bottom: 0;
+  }
+}
+
+#archive__item_list_custom {
+  a {
+    color: black;
+    text-decoration: none;
   }
 }
 

@@ -11,7 +11,7 @@ layout: archive
 <div id="post-list">
   <h2 class="archive__subtitle">{{ esc_ctgname }}</h2>
   <ul>
-    <li class="archive__item-title" v-for="p in posts" v-if="p.categories.indexOf(hash) != -1">
+    <li class="archive__item-title" v-for="p in posts" v-if="p.categories.indexOf(hash) != -1" id="archive__item_list_custom">
       <small>{{ esc_date }}</small>
       <a v-bind:href="p.url">{{ esc_title }}</a>
     </li>
