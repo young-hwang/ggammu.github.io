@@ -5,6 +5,7 @@
   {% endif %}
 {% endfor %}
 <ul class="taxonomy__nav">
+
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
       {% if category[1].size == i %}
@@ -13,8 +14,8 @@
         {% else %}
           {% assign crumb_path = '/' %}
         {% endif %}
-        <li>
-          <a href="{{ site.category_dir | prepend:crumb_path }}#{{ category[0] }}">
+        <li class="category_link" id="{{ category[0] | downcase }}">
+          <a href="{{ site.category_dir | prepend:crumb_path }}#{{ category[0] | downcase }}">
             <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
